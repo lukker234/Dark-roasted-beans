@@ -1,0 +1,6 @@
+framework module Pods_Dark_roasted_beans {
+  umbrella header "Pods-Dark roasted beans-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		207E96E3839014ACF767EC07 /* Pods_Dark_roasted_beans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69A71B5CE3D47AE1861EC39 /* Pods_Dark_roasted_beans.framework */; };
+		2C68A3F627386F3100453CA0 /* ExtrasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68A3F527386F3100453CA0 /* ExtrasViewController.swift */; };
 		2C6F4C3A27330D7500A1DE11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F4C3927330D7500A1DE11 /* AppDelegate.swift */; };
 		2C6F4C3C27330D7500A1DE11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F4C3B27330D7500A1DE11 /* SceneDelegate.swift */; };
-		2C6F4C3E27330D7500A1DE11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F4C3D27330D7500A1DE11 /* ViewController.swift */; };
 		2C6F4C4127330D7500A1DE11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F4C3F27330D7500A1DE11 /* Main.storyboard */; };
 		2C6F4C4327330D7700A1DE11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F4C4227330D7700A1DE11 /* Assets.xcassets */; };
 		2C6F4C4627330D7700A1DE11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F4C4427330D7700A1DE11 /* LaunchScreen.storyboard */; };
+		2C8D15682736D7E600D6148C /* CoffeeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D15672736D7E600D6148C /* CoffeeObject.swift */; };
+		2C8D156C2736FF7800D6148C /* StyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D156B2736FF7800D6148C /* StyleViewController.swift */; };
+		2C8D156E273708ED00D6148C /* NFCTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D156D273708ED00D6148C /* NFCTabViewController.swift */; };
+		2C8D15702737147700D6148C /* CoffeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D156F2737147700D6148C /* CoffeeTableViewCell.swift */; };
+		2C8D157227372E7E00D6148C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D157127372E7E00D6148C /* NetworkManager.swift */; };
+		2CCBC82227398EC90042AA98 /* SizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCBC82127398EC90042AA98 /* SizeViewController.swift */; };
+		2CD9F9A1273B036800892AAE /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9F9A0273B036800892AAE /* OverviewViewController.swift */; };
+		2CD9F9A3273B1AB200892AAE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9F9A2273B1AB200892AAE /* Extensions.swift */; };
+		2CD9F9A5273B1E9600892AAE /* OverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9F9A4273B1E9600892AAE /* OverviewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C68A3F527386F3100453CA0 /* ExtrasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtrasViewController.swift; sourceTree = "<group>"; };
 		2C6F4C3627330D7500A1DE11 /* Dark roasted beans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark roasted beans.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6F4C3927330D7500A1DE11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C6F4C3B27330D7500A1DE11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C6F4C3D27330D7500A1DE11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C6F4C4027330D7500A1DE11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C6F4C4227330D7700A1DE11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C6F4C4527330D7700A1DE11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C6F4C4727330D7700A1DE11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8D15672736D7E600D6148C /* CoffeeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeObject.swift; sourceTree = "<group>"; };
+		2C8D156B2736FF7800D6148C /* StyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleViewController.swift; sourceTree = "<group>"; };
+		2C8D156D273708ED00D6148C /* NFCTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCTabViewController.swift; sourceTree = "<group>"; };
+		2C8D156F2737147700D6148C /* CoffeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTableViewCell.swift; sourceTree = "<group>"; };
+		2C8D157127372E7E00D6148C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2CCBC82127398EC90042AA98 /* SizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeViewController.swift; sourceTree = "<group>"; };
+		2CD9F9A0273B036800892AAE /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		2CD9F9A2273B1AB200892AAE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2CD9F9A4273B1E9600892AAE /* OverviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewTableViewCell.swift; sourceTree = "<group>"; };
+		4BC9E6D63740DE02F7E86CF6 /* Pods-Dark roasted beans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dark roasted beans.release.xcconfig"; path = "Target Support Files/Pods-Dark roasted beans/Pods-Dark roasted beans.release.xcconfig"; sourceTree = "<group>"; };
+		5F48270CA02322E8E01EC49A /* Pods-Dark roasted beans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dark roasted beans.debug.xcconfig"; path = "Target Support Files/Pods-Dark roasted beans/Pods-Dark roasted beans.debug.xcconfig"; sourceTree = "<group>"; };
+		D69A71B5CE3D47AE1861EC39 /* Pods_Dark_roasted_beans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dark_roasted_beans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207E96E3839014ACF767EC07 /* Pods_Dark_roasted_beans.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				2C6F4C3827330D7500A1DE11 /* Dark roasted beans */,
 				2C6F4C3727330D7500A1DE11 /* Products */,
+				336AD1127EACA9F17698114D /* Pods */,
+				938A20A42072AA1DF4A3F2CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +81,65 @@
 		2C6F4C3827330D7500A1DE11 /* Dark roasted beans */ = {
 			isa = PBXGroup;
 			children = (
+				2CD9F99D273AF5E200892AAE /* Controllers */,
+				2C8D157327372F9900D6148C /* Model */,
+				2C97142C2734731400FB184D /* Utils */,
 				2C6F4C3927330D7500A1DE11 /* AppDelegate.swift */,
 				2C6F4C3B27330D7500A1DE11 /* SceneDelegate.swift */,
-				2C6F4C3D27330D7500A1DE11 /* ViewController.swift */,
 				2C6F4C3F27330D7500A1DE11 /* Main.storyboard */,
 				2C6F4C4227330D7700A1DE11 /* Assets.xcassets */,
 				2C6F4C4427330D7700A1DE11 /* LaunchScreen.storyboard */,
 				2C6F4C4727330D7700A1DE11 /* Info.plist */,
 			);
 			path = "Dark roasted beans";
+			sourceTree = "<group>";
+		};
+		2C8D157327372F9900D6148C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C8D15672736D7E600D6148C /* CoffeeObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C97142C2734731400FB184D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2C8D156F2737147700D6148C /* CoffeeTableViewCell.swift */,
+				2C8D157127372E7E00D6148C /* NetworkManager.swift */,
+				2CD9F9A2273B1AB200892AAE /* Extensions.swift */,
+				2CD9F9A4273B1E9600892AAE /* OverviewTableViewCell.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2CD9F99D273AF5E200892AAE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C8D156B2736FF7800D6148C /* StyleViewController.swift */,
+				2C8D156D273708ED00D6148C /* NFCTabViewController.swift */,
+				2C68A3F527386F3100453CA0 /* ExtrasViewController.swift */,
+				2CCBC82127398EC90042AA98 /* SizeViewController.swift */,
+				2CD9F9A0273B036800892AAE /* OverviewViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		336AD1127EACA9F17698114D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F48270CA02322E8E01EC49A /* Pods-Dark roasted beans.debug.xcconfig */,
+				4BC9E6D63740DE02F7E86CF6 /* Pods-Dark roasted beans.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		938A20A42072AA1DF4A3F2CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D69A71B5CE3D47AE1861EC39 /* Pods_Dark_roasted_beans.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C6F4C4A27330D7700A1DE11 /* Build configuration list for PBXNativeTarget "Dark roasted beans" */;
 			buildPhases = (
+				E2F6A568724BE1B45C0FA4E2 /* [CP] Check Pods Manifest.lock */,
 				2C6F4C3227330D7400A1DE11 /* Sources */,
 				2C6F4C3327330D7400A1DE11 /* Frameworks */,
 				2C6F4C3427330D7400A1DE11 /* Resources */,
+				52CC2C69439A3EBD269F6749 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +210,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52CC2C69439A3EBD269F6749 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dark roasted beans/Pods-Dark roasted beans-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dark roasted beans/Pods-Dark roasted beans-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dark roasted beans/Pods-Dark roasted beans-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F6A568724BE1B45C0FA4E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dark roasted beans-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C6F4C3227330D7400A1DE11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6F4C3E27330D7500A1DE11 /* ViewController.swift in Sources */,
+				2C8D156E273708ED00D6148C /* NFCTabViewController.swift in Sources */,
+				2CCBC82227398EC90042AA98 /* SizeViewController.swift in Sources */,
+				2C8D156C2736FF7800D6148C /* StyleViewController.swift in Sources */,
+				2C68A3F627386F3100453CA0 /* ExtrasViewController.swift in Sources */,
+				2CD9F9A5273B1E9600892AAE /* OverviewTableViewCell.swift in Sources */,
+				2C8D15682736D7E600D6148C /* CoffeeObject.swift in Sources */,
+				2C8D157227372E7E00D6148C /* NetworkManager.swift in Sources */,
 				2C6F4C3A27330D7500A1DE11 /* AppDelegate.swift in Sources */,
+				2CD9F9A1273B036800892AAE /* OverviewViewController.swift in Sources */,
+				2C8D15702737147700D6148C /* CoffeeTableViewCell.swift in Sources */,
+				2CD9F9A3273B1AB200892AAE /* Extensions.swift in Sources */,
 				2C6F4C3C27330D7500A1DE11 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,11 +412,13 @@
 		};
 		2C6F4C4B27330D7700A1DE11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F48270CA02322E8E01EC49A /* Pods-Dark roasted beans.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDD33Q2LEW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dark roasted beans/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -311,11 +441,13 @@
 		};
 		2C6F4C4C27330D7700A1DE11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC9E6D63740DE02F7E86CF6 /* Pods-Dark roasted beans.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDD33Q2LEW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dark roasted beans/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
